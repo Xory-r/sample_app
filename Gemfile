@@ -19,7 +19,7 @@ gem 'sass-rails', '5.0.6'
 gem 'uglifier', '3.2.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'faker', '1.7.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.2'
 gem 'jquery-rails', '4.3.1'
@@ -31,7 +31,8 @@ gem 'jbuilder', '2.7.0'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.12'
-
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
